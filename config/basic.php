@@ -66,7 +66,7 @@
   'address_verification' => 0,
   'identity_verification' => 0,
   'maintenance' => 0,
-  'is_active_cron_notification' => 1,
+  'is_active_cron_notification' => 0,
   'tawk_id' => '62d7e2fcb0d10b6f3e7d4766',
   'tawk_status' => 1,
   'fb_messenger_status' => 0,
