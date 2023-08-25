@@ -1,0 +1,1305 @@
+[2023-08-23 13:19:40] local.ERROR: Call to a member function getName() on null (View: /home/kolplan01/public_html/resources/views/themes/original/layouts/app.blade.php) {"view":{"view":"/home/kolplan01/public_html/resources/views/themes/original/layouts/app.blade.php","data":{"basic":"<pre class=sf-dump id=sf-dump-1790112721 data-indent-pad=\"  \">{<a class=sf-dump-ref>#272</a><samp data-depth=1 class=sf-dump-expanded>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency_layer_access_key</span>\": \"<span class=sf-dump-str title=\"32 characters\">56a2a2475afeb5c2aecb5e8be3cf990b</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency_layer_auto_update</span>\": \"<span class=sf-dump-str>0</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency_layer_auto_update_at</span>\": \"<span class=sf-dump-str title=\"16 characters\">everyFiveMinutes</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">coin_market_cap_app_key</span>\": \"<span class=sf-dump-str title=\"36 characters\">726ffba5-8523-4071-92d4-1775dbc481c4</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">coin_market_cap_auto_update</span>\": \"<span class=sf-dump-str>0</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">coin_market_cap_auto_update_at</span>\": \"<span class=sf-dump-str title=\"15 characters\">everyTenMinutes</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">schedule_list</span>\": <span class=sf-dump-note>array:15</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>everyMinute</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Every Minute</span>\"
+    \"<span class=sf-dump-key>everyTwoMinutes</span>\" => \"<span class=sf-dump-str title=\"17 characters\">Every Two Minutes</span>\"
+    \"<span class=sf-dump-key>everyThreeMinutes</span>\" => \"<span class=sf-dump-str title=\"19 characters\">Every Three Minutes</span>\"
+    \"<span class=sf-dump-key>everyFourMinutes</span>\" => \"<span class=sf-dump-str title=\"18 characters\">Every Four Minutes</span>\"
+    \"<span class=sf-dump-key>everyFiveMinutes</span>\" => \"<span class=sf-dump-str title=\"18 characters\">Every Five Minutes</span>\"
+    \"<span class=sf-dump-key>everyTenMinutes</span>\" => \"<span class=sf-dump-str title=\"17 characters\">Every Ten Minutes</span>\"
+    \"<span class=sf-dump-key>everyFifteenMinutes</span>\" => \"<span class=sf-dump-str title=\"21 characters\">Every Fifteen Minutes</span>\"
+    \"<span class=sf-dump-key>everyThirtyMinutes</span>\" => \"<span class=sf-dump-str title=\"20 characters\">Every Thirty Minutes</span>\"
+    \"<span class=sf-dump-key>hourly</span>\" => \"<span class=sf-dump-str title=\"6 characters\">hourly</span>\"
+    \"<span class=sf-dump-key>everyTwoHours</span>\" => \"<span class=sf-dump-str title=\"14 characters\">Every TwoHours</span>\"
+    \"<span class=sf-dump-key>everyThreeHours</span>\" => \"<span class=sf-dump-str title=\"17 characters\">Every Three Hours</span>\"
+    \"<span class=sf-dump-key>everyFourHours</span>\" => \"<span class=sf-dump-str title=\"16 characters\">Every Four Hours</span>\"
+    \"<span class=sf-dump-key>everySixHours</span>\" => \"<span class=sf-dump-str title=\"15 characters\">Every Six Hours</span>\"
+    \"<span class=sf-dump-key>daily</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Daily</span>\"
+    \"<span class=sf-dump-key>weekly</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Weekly</span>\"
+  </samp>]
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">site_title</span>\": \"<span class=sf-dump-str title=\"9 characters\">ChainCity</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">base_color</span>\": \"<span class=sf-dump-str title=\"7 characters\">#cc54f4</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">secondary_color</span>\": \"<span class=sf-dump-str title=\"7 characters\">#488ff9</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">time_zone</span>\": \"<span class=sf-dump-str title=\"10 characters\">Asia/Dhaka</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency</span>\": \"<span class=sf-dump-str title=\"3 characters\">USD</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency_symbol</span>\": \"<span class=sf-dump-str>$</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">theme</span>\": \"<span class=sf-dump-str title=\"8 characters\">original</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">fraction_number</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">paginate</span>\": <span class=sf-dump-num>20</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">email_verification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">email_notification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">sms_verification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">sms_notification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">investment_commission</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">deposit_commission</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">profit_commission</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">badge_commission</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">bonus</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">upline_joining_bonus</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">sender_email</span>\": \"<span class=sf-dump-str title=\"16 characters\">support@mail.com</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">sender_email_name</span>\": \"<span class=sf-dump-str title=\"10 characters\">Bug Finder</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">email_configuration</span>\": <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">smtp</span>\"
+    \"<span class=sf-dump-key>smtp_host</span>\" => \"<span class=sf-dump-str title=\"16 characters\">smtp.mailtrap.io</span>\"
+    \"<span class=sf-dump-key>smtp_port</span>\" => \"<span class=sf-dump-str title=\"4 characters\">2525</span>\"
+    \"<span class=sf-dump-key>smtp_encryption</span>\" => \"<span class=sf-dump-str title=\"3 characters\">tls</span>\"
+    \"<span class=sf-dump-key>smtp_username</span>\" => \"<span class=sf-dump-str title=\"14 characters\">27c683ed7f2f38</span>\"
+    \"<span class=sf-dump-key>smtp_password</span>\" => \"<span class=sf-dump-str title=\"14 characters\">3444b47884035b</span>\"
+  </samp>]
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">push_notification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">min_transfer</span>\": \"<span class=sf-dump-str title=\"6 characters\">500.00</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">max_transfer</span>\": \"<span class=sf-dump-str title=\"9 characters\">900000.00</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">transfer_charge</span>\": \"<span class=sf-dump-str>0</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">bonus_amount</span>\": \"<span class=sf-dump-str title=\"2 characters\">10</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">joining_bonus</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">error_log</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">maintenance_mode</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">strong_password</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">registration</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">address_verification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">identity_verification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">maintenance</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">is_active_cron_notification</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">tawk_id</span>\": \"<span class=sf-dump-str title=\"24 characters\">62d7e2fcb0d10b6f3e7d4766</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">tawk_status</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">fb_messenger_status</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">fb_app_id</span>\": \"<span class=sf-dump-str title=\"16 characters\">1983831301869331</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">fb_page_id</span>\": \"<span class=sf-dump-str title=\"16 characters\">1983831301869331</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">reCaptcha_status_login</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">reCaptcha_status_registration</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">MEASUREMENT_ID</span>\": \"<span class=sf-dump-str title=\"12 characters\">G-TFQZ8YZ468</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">analytic_status</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">is_share_investment</span>\": <span class=sf-dump-num>1</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1790112721\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","theme":"<pre class=sf-dump id=sf-dump-1956140504 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"16 characters\">themes.original.</span>\"
+</pre><script>Sfdump(\"sf-dump-1956140504\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","themeTrue":"<pre class=sf-dump id=sf-dump-1225480056 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"23 characters\">assets/themes/original/</span>\"
+</pre><script>Sfdump(\"sf-dump-1225480056\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","errors":"<pre class=sf-dump id=sf-dump-1132367257 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1025</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1132367257\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","exception":"<pre class=sf-dump id=sf-dump-1428136064 data-indent-pad=\"  \"><span class=sf-dump-note>Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException</span> {<a class=sf-dump-ref>#673</a><samp data-depth=1 class=sf-dump-expanded>
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Symfony\\Component\\HttpKernel\\Exception\\HttpException`\">statusCode</span>: <span class=sf-dump-num>404</span>
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Symfony\\Component\\HttpKernel\\Exception\\HttpException`\">headers</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">message</span>: \"\"
+  #<span class=sf-dump-protected title=\"Protected property\">code</span>: <span class=sf-dump-num>0</span>
+  #<span class=sf-dump-protected title=\"Protected property\">file</span>: \"<span class=sf-dump-str title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php
+103 characters\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/AbstractRouteCollection.php</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">line</span>: <span class=sf-dump-num>43</span>
+  <span class=sf-dump-meta>trace</span>: {<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php:43
+Stack level 25.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/AbstractRouteCollection.php:43</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\AbstractRouteCollection-&gt;handleMatchedRoute(Request $request, $route)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>AbstractRouteCollection-&gt;handleMatchedRoute(Request $request, $route)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\AbstractRouteCollection-&gt;handleMatchedRoute(Request $request, $route)\">    throw new NotFoundHttpException;</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php:162
+Stack level 24.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/RouteCollection.php:162</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\RouteCollection-&gt;match(Request $request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>RouteCollection-&gt;match(Request $request)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\RouteCollection-&gt;match(Request $request)\">    return $this-&gt;handleMatchedRoute($request, $route);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:673
+Stack level 23.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/Router.php:673</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\Router-&gt;findRoute($request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Router-&gt;findRoute($request)</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>{</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\Router-&gt;findRoute($request)\">    $this-&gt;current = $route = $this-&gt;routes-&gt;match($request);</span></code>
+      &#8250; 
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:662
+Stack level 22.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/Router.php:662</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\Router-&gt;dispatchToRoute(Request $request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Router-&gt;dispatchToRoute(Request $request)</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>{</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\Router-&gt;dispatchToRoute(Request $request)\">    return $this-&gt;runRoute($request, $this-&gt;findRoute($request));</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:651
+Stack level 21.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/Router.php:651</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\Router-&gt;dispatch(Request $request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Router-&gt;dispatch(Request $request)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\Router-&gt;dispatch(Request $request)\">    return $this-&gt;dispatchToRoute($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:167
+Stack level 20.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Kernel.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Kernel-&gt;Illuminate\\Foundation\\Http\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Kernel-&gt;Illuminate\\Foundation\\Http</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Kernel-&gt;Illuminate\\Foundation\\Http\\{closure}\">    return $this-&gt;router-&gt;dispatch($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>};</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+Stack level 19.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:128</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>try {</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">    return $destination($passable);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>} catch (Throwable $e) {</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php:21
+Stack level 18.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php:21</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TransformsRequest-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php:31
+Stack level 17.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php:31</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ConvertEmptyStringsToNull-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull-&gt;handle($request, Closure $next)\">    return parent::handle($request, $next);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 16.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php:21
+Stack level 15.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php:21</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TransformsRequest-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php:40
+Stack level 14.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/TrimStrings.php:40</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\TrimStrings-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TrimStrings-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\TrimStrings-&gt;handle($request, Closure $next)\">    return parent::handle($request, $next);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 13.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php:27
+Stack level 12.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php:27</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ValidatePostSize-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 11.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php:86
+Stack level 10.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php:86</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>PreventRequestsDuringMaintenance-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 9.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/fruitcake/laravel-cors/src/HandleCors.php:38
+Stack level 8.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/fruitcake/laravel-cors/</span>src/HandleCors.php:38</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Fruitcake\\Cors\\HandleCors-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Fruitcake\\Cors</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>HandleCors-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>if (! $this-&gt;shouldRun($request)) {</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Fruitcake\\Cors\\HandleCors-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 7.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/fideloper/proxy/src/TrustProxies.php:57
+Stack level 6.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/fideloper/proxy/</span>src/TrustProxies.php:57</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Fideloper\\Proxy\\TrustProxies-&gt;handle(Request $request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Fideloper\\Proxy</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TrustProxies-&gt;handle(Request $request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Fideloper\\Proxy\\TrustProxies-&gt;handle(Request $request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 5.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+Stack level 4.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:103</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;then(Closure $destination)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Pipeline-&gt;then(Closure $destination)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;then(Closure $destination)\">    return $pipeline($this-&gt;passable);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:142
+Stack level 3.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Kernel.php:142</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Kernel-&gt;sendRequestThroughRouter($request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Kernel-&gt;sendRequestThroughRouter($request)</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                -&gt;through($this-&gt;app-&gt;shouldSkipMiddleware() ? [] : $this-&gt;middleware)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Kernel-&gt;sendRequestThroughRouter($request)\">                -&gt;then($this-&gt;dispatchToRouter());</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:111
+Stack level 2.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Kernel.php:111</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Kernel-&gt;handle($request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Kernel-&gt;handle($request)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Kernel-&gt;handle($request)\">    $response = $this-&gt;sendRequestThroughRouter($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>} catch (Throwable $e) {</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/index.php:52
+Stack level 1.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/</span>index.php:52</span> {<samp data-depth=3 class=sf-dump-compact>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$response = tap($kernel-&gt;handle(</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"\">    $request = Request::capture()</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>))-&gt;send();</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+  </samp>}
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1428136064\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Call to a member function getName() on null (View: /home/kolplan01/public_html/resources/views/themes/original/layouts/app.blade.php) at /home/kolplan01/public_html/resources/views/themes/original/layouts/app.blade.php:16)
+[stacktrace]
+#0 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require()
+#1 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#2 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#3 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#4 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#5 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#6 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#7 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#8 /home/kolplan01/public_html/resources/views/themes/original/errors/404.blade.php(18): Illuminate\\View\\View->render()
+#9 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/kolplan01...')
+#10 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#11 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#12 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#13 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#14 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#15 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#16 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#17 /home/kolplan01/public_html/resources/views/errors/404.blade.php(1): Illuminate\\View\\View->render()
+#18 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/kolplan01...')
+#19 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#21 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#22 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#23 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#24 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#25 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#26 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#27 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#28 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 404, Array)
+#29 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make(Object(Illuminate\\View\\View), 404, Array)
+#30 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#31 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#32 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#33 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#34 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#35 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 /home/kolplan01/public_html/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 /home/kolplan01/public_html/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#51 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#52 /home/kolplan01/public_html/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#53 {main}
+
+[previous exception] [object] (Error(code: 0): Call to a member function getName() on null at /home/kolplan01/public_html/storage/framework/views/7cf56e0f1d00f210f548cea23896b60293001b5c.php:16)
+[stacktrace]
+#0 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require()
+#1 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#2 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#3 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#4 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#5 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#6 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#7 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#8 /home/kolplan01/public_html/storage/framework/views/45e47f5e2aaf55dd5f3058347ba586c134a45840.php(18): Illuminate\\View\\View->render()
+#9 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/kolplan01...')
+#10 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#11 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#12 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#13 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#14 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#15 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#16 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#17 /home/kolplan01/public_html/storage/framework/views/5342eb4eb89ba5c02041a8d5289429bd154c2059.php(1): Illuminate\\View\\View->render()
+#18 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/kolplan01...')
+#19 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#21 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#22 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#23 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#24 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#25 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#26 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#27 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#28 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 404, Array)
+#29 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make(Object(Illuminate\\View\\View), 404, Array)
+#30 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#31 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#32 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#33 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#34 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#35 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 /home/kolplan01/public_html/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 /home/kolplan01/public_html/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#51 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#52 /home/kolplan01/public_html/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#53 {main}
+"} 
+[2023-08-23 13:19:41] local.ERROR: Call to a member function getName() on null (View: /home/kolplan01/public_html/resources/views/themes/original/layouts/app.blade.php) {"view":{"view":"/home/kolplan01/public_html/resources/views/themes/original/layouts/app.blade.php","data":{"basic":"<pre class=sf-dump id=sf-dump-1559041519 data-indent-pad=\"  \">{<a class=sf-dump-ref>#272</a><samp data-depth=1 class=sf-dump-expanded>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency_layer_access_key</span>\": \"<span class=sf-dump-str title=\"32 characters\">56a2a2475afeb5c2aecb5e8be3cf990b</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency_layer_auto_update</span>\": \"<span class=sf-dump-str>0</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency_layer_auto_update_at</span>\": \"<span class=sf-dump-str title=\"16 characters\">everyFiveMinutes</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">coin_market_cap_app_key</span>\": \"<span class=sf-dump-str title=\"36 characters\">726ffba5-8523-4071-92d4-1775dbc481c4</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">coin_market_cap_auto_update</span>\": \"<span class=sf-dump-str>0</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">coin_market_cap_auto_update_at</span>\": \"<span class=sf-dump-str title=\"15 characters\">everyTenMinutes</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">schedule_list</span>\": <span class=sf-dump-note>array:15</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>everyMinute</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Every Minute</span>\"
+    \"<span class=sf-dump-key>everyTwoMinutes</span>\" => \"<span class=sf-dump-str title=\"17 characters\">Every Two Minutes</span>\"
+    \"<span class=sf-dump-key>everyThreeMinutes</span>\" => \"<span class=sf-dump-str title=\"19 characters\">Every Three Minutes</span>\"
+    \"<span class=sf-dump-key>everyFourMinutes</span>\" => \"<span class=sf-dump-str title=\"18 characters\">Every Four Minutes</span>\"
+    \"<span class=sf-dump-key>everyFiveMinutes</span>\" => \"<span class=sf-dump-str title=\"18 characters\">Every Five Minutes</span>\"
+    \"<span class=sf-dump-key>everyTenMinutes</span>\" => \"<span class=sf-dump-str title=\"17 characters\">Every Ten Minutes</span>\"
+    \"<span class=sf-dump-key>everyFifteenMinutes</span>\" => \"<span class=sf-dump-str title=\"21 characters\">Every Fifteen Minutes</span>\"
+    \"<span class=sf-dump-key>everyThirtyMinutes</span>\" => \"<span class=sf-dump-str title=\"20 characters\">Every Thirty Minutes</span>\"
+    \"<span class=sf-dump-key>hourly</span>\" => \"<span class=sf-dump-str title=\"6 characters\">hourly</span>\"
+    \"<span class=sf-dump-key>everyTwoHours</span>\" => \"<span class=sf-dump-str title=\"14 characters\">Every TwoHours</span>\"
+    \"<span class=sf-dump-key>everyThreeHours</span>\" => \"<span class=sf-dump-str title=\"17 characters\">Every Three Hours</span>\"
+    \"<span class=sf-dump-key>everyFourHours</span>\" => \"<span class=sf-dump-str title=\"16 characters\">Every Four Hours</span>\"
+    \"<span class=sf-dump-key>everySixHours</span>\" => \"<span class=sf-dump-str title=\"15 characters\">Every Six Hours</span>\"
+    \"<span class=sf-dump-key>daily</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Daily</span>\"
+    \"<span class=sf-dump-key>weekly</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Weekly</span>\"
+  </samp>]
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">site_title</span>\": \"<span class=sf-dump-str title=\"9 characters\">ChainCity</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">base_color</span>\": \"<span class=sf-dump-str title=\"7 characters\">#cc54f4</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">secondary_color</span>\": \"<span class=sf-dump-str title=\"7 characters\">#488ff9</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">time_zone</span>\": \"<span class=sf-dump-str title=\"10 characters\">Asia/Dhaka</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency</span>\": \"<span class=sf-dump-str title=\"3 characters\">USD</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency_symbol</span>\": \"<span class=sf-dump-str>$</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">theme</span>\": \"<span class=sf-dump-str title=\"8 characters\">original</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">fraction_number</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">paginate</span>\": <span class=sf-dump-num>20</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">email_verification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">email_notification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">sms_verification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">sms_notification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">investment_commission</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">deposit_commission</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">profit_commission</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">badge_commission</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">bonus</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">upline_joining_bonus</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">sender_email</span>\": \"<span class=sf-dump-str title=\"16 characters\">support@mail.com</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">sender_email_name</span>\": \"<span class=sf-dump-str title=\"10 characters\">Bug Finder</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">email_configuration</span>\": <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">smtp</span>\"
+    \"<span class=sf-dump-key>smtp_host</span>\" => \"<span class=sf-dump-str title=\"16 characters\">smtp.mailtrap.io</span>\"
+    \"<span class=sf-dump-key>smtp_port</span>\" => \"<span class=sf-dump-str title=\"4 characters\">2525</span>\"
+    \"<span class=sf-dump-key>smtp_encryption</span>\" => \"<span class=sf-dump-str title=\"3 characters\">tls</span>\"
+    \"<span class=sf-dump-key>smtp_username</span>\" => \"<span class=sf-dump-str title=\"14 characters\">27c683ed7f2f38</span>\"
+    \"<span class=sf-dump-key>smtp_password</span>\" => \"<span class=sf-dump-str title=\"14 characters\">3444b47884035b</span>\"
+  </samp>]
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">push_notification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">min_transfer</span>\": \"<span class=sf-dump-str title=\"6 characters\">500.00</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">max_transfer</span>\": \"<span class=sf-dump-str title=\"9 characters\">900000.00</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">transfer_charge</span>\": \"<span class=sf-dump-str>0</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">bonus_amount</span>\": \"<span class=sf-dump-str title=\"2 characters\">10</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">joining_bonus</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">error_log</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">maintenance_mode</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">strong_password</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">registration</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">address_verification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">identity_verification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">maintenance</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">is_active_cron_notification</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">tawk_id</span>\": \"<span class=sf-dump-str title=\"24 characters\">62d7e2fcb0d10b6f3e7d4766</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">tawk_status</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">fb_messenger_status</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">fb_app_id</span>\": \"<span class=sf-dump-str title=\"16 characters\">1983831301869331</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">fb_page_id</span>\": \"<span class=sf-dump-str title=\"16 characters\">1983831301869331</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">reCaptcha_status_login</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">reCaptcha_status_registration</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">MEASUREMENT_ID</span>\": \"<span class=sf-dump-str title=\"12 characters\">G-TFQZ8YZ468</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">analytic_status</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">is_share_investment</span>\": <span class=sf-dump-num>1</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1559041519\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","theme":"<pre class=sf-dump id=sf-dump-1388478500 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"16 characters\">themes.original.</span>\"
+</pre><script>Sfdump(\"sf-dump-1388478500\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","themeTrue":"<pre class=sf-dump id=sf-dump-586849851 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"23 characters\">assets/themes/original/</span>\"
+</pre><script>Sfdump(\"sf-dump-586849851\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","errors":"<pre class=sf-dump id=sf-dump-1934786924 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1025</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1934786924\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","exception":"<pre class=sf-dump id=sf-dump-1135030420 data-indent-pad=\"  \"><span class=sf-dump-note>Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException</span> {<a class=sf-dump-ref>#673</a><samp data-depth=1 class=sf-dump-expanded>
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Symfony\\Component\\HttpKernel\\Exception\\HttpException`\">statusCode</span>: <span class=sf-dump-num>404</span>
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Symfony\\Component\\HttpKernel\\Exception\\HttpException`\">headers</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">message</span>: \"\"
+  #<span class=sf-dump-protected title=\"Protected property\">code</span>: <span class=sf-dump-num>0</span>
+  #<span class=sf-dump-protected title=\"Protected property\">file</span>: \"<span class=sf-dump-str title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php
+103 characters\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/AbstractRouteCollection.php</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">line</span>: <span class=sf-dump-num>43</span>
+  <span class=sf-dump-meta>trace</span>: {<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php:43
+Stack level 25.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/AbstractRouteCollection.php:43</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\AbstractRouteCollection-&gt;handleMatchedRoute(Request $request, $route)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>AbstractRouteCollection-&gt;handleMatchedRoute(Request $request, $route)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\AbstractRouteCollection-&gt;handleMatchedRoute(Request $request, $route)\">    throw new NotFoundHttpException;</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php:162
+Stack level 24.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/RouteCollection.php:162</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\RouteCollection-&gt;match(Request $request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>RouteCollection-&gt;match(Request $request)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\RouteCollection-&gt;match(Request $request)\">    return $this-&gt;handleMatchedRoute($request, $route);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:673
+Stack level 23.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/Router.php:673</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\Router-&gt;findRoute($request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Router-&gt;findRoute($request)</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>{</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\Router-&gt;findRoute($request)\">    $this-&gt;current = $route = $this-&gt;routes-&gt;match($request);</span></code>
+      &#8250; 
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:662
+Stack level 22.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/Router.php:662</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\Router-&gt;dispatchToRoute(Request $request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Router-&gt;dispatchToRoute(Request $request)</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>{</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\Router-&gt;dispatchToRoute(Request $request)\">    return $this-&gt;runRoute($request, $this-&gt;findRoute($request));</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:651
+Stack level 21.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/Router.php:651</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\Router-&gt;dispatch(Request $request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Router-&gt;dispatch(Request $request)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\Router-&gt;dispatch(Request $request)\">    return $this-&gt;dispatchToRoute($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:167
+Stack level 20.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Kernel.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Kernel-&gt;Illuminate\\Foundation\\Http\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Kernel-&gt;Illuminate\\Foundation\\Http</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Kernel-&gt;Illuminate\\Foundation\\Http\\{closure}\">    return $this-&gt;router-&gt;dispatch($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>};</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+Stack level 19.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:128</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>try {</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">    return $destination($passable);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>} catch (Throwable $e) {</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php:21
+Stack level 18.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php:21</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TransformsRequest-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php:31
+Stack level 17.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php:31</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ConvertEmptyStringsToNull-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull-&gt;handle($request, Closure $next)\">    return parent::handle($request, $next);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 16.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php:21
+Stack level 15.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php:21</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TransformsRequest-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php:40
+Stack level 14.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/TrimStrings.php:40</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\TrimStrings-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TrimStrings-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\TrimStrings-&gt;handle($request, Closure $next)\">    return parent::handle($request, $next);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 13.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php:27
+Stack level 12.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php:27</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ValidatePostSize-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 11.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php:86
+Stack level 10.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php:86</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>PreventRequestsDuringMaintenance-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 9.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/fruitcake/laravel-cors/src/HandleCors.php:38
+Stack level 8.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/fruitcake/laravel-cors/</span>src/HandleCors.php:38</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Fruitcake\\Cors\\HandleCors-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Fruitcake\\Cors</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>HandleCors-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>if (! $this-&gt;shouldRun($request)) {</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Fruitcake\\Cors\\HandleCors-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 7.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/fideloper/proxy/src/TrustProxies.php:57
+Stack level 6.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/fideloper/proxy/</span>src/TrustProxies.php:57</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Fideloper\\Proxy\\TrustProxies-&gt;handle(Request $request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Fideloper\\Proxy</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TrustProxies-&gt;handle(Request $request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Fideloper\\Proxy\\TrustProxies-&gt;handle(Request $request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 5.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+Stack level 4.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:103</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;then(Closure $destination)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Pipeline-&gt;then(Closure $destination)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;then(Closure $destination)\">    return $pipeline($this-&gt;passable);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:142
+Stack level 3.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Kernel.php:142</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Kernel-&gt;sendRequestThroughRouter($request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Kernel-&gt;sendRequestThroughRouter($request)</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                -&gt;through($this-&gt;app-&gt;shouldSkipMiddleware() ? [] : $this-&gt;middleware)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Kernel-&gt;sendRequestThroughRouter($request)\">                -&gt;then($this-&gt;dispatchToRouter());</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:111
+Stack level 2.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Kernel.php:111</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Kernel-&gt;handle($request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Kernel-&gt;handle($request)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Kernel-&gt;handle($request)\">    $response = $this-&gt;sendRequestThroughRouter($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>} catch (Throwable $e) {</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/index.php:52
+Stack level 1.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/</span>index.php:52</span> {<samp data-depth=3 class=sf-dump-compact>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$response = tap($kernel-&gt;handle(</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"\">    $request = Request::capture()</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>))-&gt;send();</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+  </samp>}
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1135030420\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Call to a member function getName() on null (View: /home/kolplan01/public_html/resources/views/themes/original/layouts/app.blade.php) at /home/kolplan01/public_html/resources/views/themes/original/layouts/app.blade.php:16)
+[stacktrace]
+#0 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require()
+#1 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#2 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#3 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#4 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#5 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#6 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#7 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#8 /home/kolplan01/public_html/resources/views/themes/original/errors/404.blade.php(18): Illuminate\\View\\View->render()
+#9 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/kolplan01...')
+#10 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#11 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#12 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#13 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#14 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#15 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#16 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#17 /home/kolplan01/public_html/resources/views/errors/404.blade.php(1): Illuminate\\View\\View->render()
+#18 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/kolplan01...')
+#19 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#21 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#22 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#23 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#24 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#25 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#26 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#27 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#28 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 404, Array)
+#29 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make(Object(Illuminate\\View\\View), 404, Array)
+#30 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#31 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#32 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#33 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#34 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#35 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 /home/kolplan01/public_html/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 /home/kolplan01/public_html/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#51 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#52 /home/kolplan01/public_html/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#53 {main}
+
+[previous exception] [object] (Error(code: 0): Call to a member function getName() on null at /home/kolplan01/public_html/storage/framework/views/7cf56e0f1d00f210f548cea23896b60293001b5c.php:16)
+[stacktrace]
+#0 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require()
+#1 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#2 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#3 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#4 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#5 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#6 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#7 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#8 /home/kolplan01/public_html/storage/framework/views/45e47f5e2aaf55dd5f3058347ba586c134a45840.php(18): Illuminate\\View\\View->render()
+#9 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/kolplan01...')
+#10 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#11 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#12 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#13 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#14 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#15 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#16 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#17 /home/kolplan01/public_html/storage/framework/views/5342eb4eb89ba5c02041a8d5289429bd154c2059.php(1): Illuminate\\View\\View->render()
+#18 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/kolplan01...')
+#19 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#21 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#22 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#23 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#24 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#25 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#26 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#27 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#28 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 404, Array)
+#29 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make(Object(Illuminate\\View\\View), 404, Array)
+#30 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#31 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#32 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#33 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#34 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#35 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 /home/kolplan01/public_html/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 /home/kolplan01/public_html/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#51 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#52 /home/kolplan01/public_html/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#53 {main}
+"} 
+[2023-08-23 13:19:42] local.ERROR: Call to a member function getName() on null (View: /home/kolplan01/public_html/resources/views/themes/original/layouts/app.blade.php) {"view":{"view":"/home/kolplan01/public_html/resources/views/themes/original/layouts/app.blade.php","data":{"basic":"<pre class=sf-dump id=sf-dump-723773565 data-indent-pad=\"  \">{<a class=sf-dump-ref>#272</a><samp data-depth=1 class=sf-dump-expanded>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency_layer_access_key</span>\": \"<span class=sf-dump-str title=\"32 characters\">56a2a2475afeb5c2aecb5e8be3cf990b</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency_layer_auto_update</span>\": \"<span class=sf-dump-str>0</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency_layer_auto_update_at</span>\": \"<span class=sf-dump-str title=\"16 characters\">everyFiveMinutes</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">coin_market_cap_app_key</span>\": \"<span class=sf-dump-str title=\"36 characters\">726ffba5-8523-4071-92d4-1775dbc481c4</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">coin_market_cap_auto_update</span>\": \"<span class=sf-dump-str>0</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">coin_market_cap_auto_update_at</span>\": \"<span class=sf-dump-str title=\"15 characters\">everyTenMinutes</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">schedule_list</span>\": <span class=sf-dump-note>array:15</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>everyMinute</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Every Minute</span>\"
+    \"<span class=sf-dump-key>everyTwoMinutes</span>\" => \"<span class=sf-dump-str title=\"17 characters\">Every Two Minutes</span>\"
+    \"<span class=sf-dump-key>everyThreeMinutes</span>\" => \"<span class=sf-dump-str title=\"19 characters\">Every Three Minutes</span>\"
+    \"<span class=sf-dump-key>everyFourMinutes</span>\" => \"<span class=sf-dump-str title=\"18 characters\">Every Four Minutes</span>\"
+    \"<span class=sf-dump-key>everyFiveMinutes</span>\" => \"<span class=sf-dump-str title=\"18 characters\">Every Five Minutes</span>\"
+    \"<span class=sf-dump-key>everyTenMinutes</span>\" => \"<span class=sf-dump-str title=\"17 characters\">Every Ten Minutes</span>\"
+    \"<span class=sf-dump-key>everyFifteenMinutes</span>\" => \"<span class=sf-dump-str title=\"21 characters\">Every Fifteen Minutes</span>\"
+    \"<span class=sf-dump-key>everyThirtyMinutes</span>\" => \"<span class=sf-dump-str title=\"20 characters\">Every Thirty Minutes</span>\"
+    \"<span class=sf-dump-key>hourly</span>\" => \"<span class=sf-dump-str title=\"6 characters\">hourly</span>\"
+    \"<span class=sf-dump-key>everyTwoHours</span>\" => \"<span class=sf-dump-str title=\"14 characters\">Every TwoHours</span>\"
+    \"<span class=sf-dump-key>everyThreeHours</span>\" => \"<span class=sf-dump-str title=\"17 characters\">Every Three Hours</span>\"
+    \"<span class=sf-dump-key>everyFourHours</span>\" => \"<span class=sf-dump-str title=\"16 characters\">Every Four Hours</span>\"
+    \"<span class=sf-dump-key>everySixHours</span>\" => \"<span class=sf-dump-str title=\"15 characters\">Every Six Hours</span>\"
+    \"<span class=sf-dump-key>daily</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Daily</span>\"
+    \"<span class=sf-dump-key>weekly</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Weekly</span>\"
+  </samp>]
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">site_title</span>\": \"<span class=sf-dump-str title=\"9 characters\">ChainCity</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">base_color</span>\": \"<span class=sf-dump-str title=\"7 characters\">#cc54f4</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">secondary_color</span>\": \"<span class=sf-dump-str title=\"7 characters\">#488ff9</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">time_zone</span>\": \"<span class=sf-dump-str title=\"10 characters\">Asia/Dhaka</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency</span>\": \"<span class=sf-dump-str title=\"3 characters\">USD</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">currency_symbol</span>\": \"<span class=sf-dump-str>$</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">theme</span>\": \"<span class=sf-dump-str title=\"8 characters\">original</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">fraction_number</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">paginate</span>\": <span class=sf-dump-num>20</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">email_verification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">email_notification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">sms_verification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">sms_notification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">investment_commission</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">deposit_commission</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">profit_commission</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">badge_commission</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">bonus</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">upline_joining_bonus</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">sender_email</span>\": \"<span class=sf-dump-str title=\"16 characters\">support@mail.com</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">sender_email_name</span>\": \"<span class=sf-dump-str title=\"10 characters\">Bug Finder</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">email_configuration</span>\": <span class=sf-dump-note>array:6</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">smtp</span>\"
+    \"<span class=sf-dump-key>smtp_host</span>\" => \"<span class=sf-dump-str title=\"16 characters\">smtp.mailtrap.io</span>\"
+    \"<span class=sf-dump-key>smtp_port</span>\" => \"<span class=sf-dump-str title=\"4 characters\">2525</span>\"
+    \"<span class=sf-dump-key>smtp_encryption</span>\" => \"<span class=sf-dump-str title=\"3 characters\">tls</span>\"
+    \"<span class=sf-dump-key>smtp_username</span>\" => \"<span class=sf-dump-str title=\"14 characters\">27c683ed7f2f38</span>\"
+    \"<span class=sf-dump-key>smtp_password</span>\" => \"<span class=sf-dump-str title=\"14 characters\">3444b47884035b</span>\"
+  </samp>]
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">push_notification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">min_transfer</span>\": \"<span class=sf-dump-str title=\"6 characters\">500.00</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">max_transfer</span>\": \"<span class=sf-dump-str title=\"9 characters\">900000.00</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">transfer_charge</span>\": \"<span class=sf-dump-str>0</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">bonus_amount</span>\": \"<span class=sf-dump-str title=\"2 characters\">10</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">joining_bonus</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">error_log</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">maintenance_mode</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">strong_password</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">registration</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">address_verification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">identity_verification</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">maintenance</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">is_active_cron_notification</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">tawk_id</span>\": \"<span class=sf-dump-str title=\"24 characters\">62d7e2fcb0d10b6f3e7d4766</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">tawk_status</span>\": <span class=sf-dump-num>1</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">fb_messenger_status</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">fb_app_id</span>\": \"<span class=sf-dump-str title=\"16 characters\">1983831301869331</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">fb_page_id</span>\": \"<span class=sf-dump-str title=\"16 characters\">1983831301869331</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">reCaptcha_status_login</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">reCaptcha_status_registration</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">MEASUREMENT_ID</span>\": \"<span class=sf-dump-str title=\"12 characters\">G-TFQZ8YZ468</span>\"
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">analytic_status</span>\": <span class=sf-dump-num>0</span>
+  +\"<span class=sf-dump-public title=\"Runtime added dynamic property\">is_share_investment</span>\": <span class=sf-dump-num>1</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-723773565\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","theme":"<pre class=sf-dump id=sf-dump-1666831893 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"16 characters\">themes.original.</span>\"
+</pre><script>Sfdump(\"sf-dump-1666831893\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","themeTrue":"<pre class=sf-dump id=sf-dump-1649745402 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"23 characters\">assets/themes/original/</span>\"
+</pre><script>Sfdump(\"sf-dump-1649745402\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","errors":"<pre class=sf-dump id=sf-dump-377392810 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1025</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-377392810\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","exception":"<pre class=sf-dump id=sf-dump-971229355 data-indent-pad=\"  \"><span class=sf-dump-note>Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException</span> {<a class=sf-dump-ref>#673</a><samp data-depth=1 class=sf-dump-expanded>
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Symfony\\Component\\HttpKernel\\Exception\\HttpException`\">statusCode</span>: <span class=sf-dump-num>404</span>
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`Symfony\\Component\\HttpKernel\\Exception\\HttpException`\">headers</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">message</span>: \"\"
+  #<span class=sf-dump-protected title=\"Protected property\">code</span>: <span class=sf-dump-num>0</span>
+  #<span class=sf-dump-protected title=\"Protected property\">file</span>: \"<span class=sf-dump-str title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php
+103 characters\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/AbstractRouteCollection.php</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">line</span>: <span class=sf-dump-num>43</span>
+  <span class=sf-dump-meta>trace</span>: {<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php:43
+Stack level 25.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/AbstractRouteCollection.php:43</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\AbstractRouteCollection-&gt;handleMatchedRoute(Request $request, $route)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>AbstractRouteCollection-&gt;handleMatchedRoute(Request $request, $route)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\AbstractRouteCollection-&gt;handleMatchedRoute(Request $request, $route)\">    throw new NotFoundHttpException;</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php:162
+Stack level 24.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/RouteCollection.php:162</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\RouteCollection-&gt;match(Request $request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>RouteCollection-&gt;match(Request $request)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\RouteCollection-&gt;match(Request $request)\">    return $this-&gt;handleMatchedRoute($request, $route);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:673
+Stack level 23.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/Router.php:673</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\Router-&gt;findRoute($request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Router-&gt;findRoute($request)</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>{</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\Router-&gt;findRoute($request)\">    $this-&gt;current = $route = $this-&gt;routes-&gt;match($request);</span></code>
+      &#8250; 
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:662
+Stack level 22.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/Router.php:662</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\Router-&gt;dispatchToRoute(Request $request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Router-&gt;dispatchToRoute(Request $request)</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>{</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\Router-&gt;dispatchToRoute(Request $request)\">    return $this-&gt;runRoute($request, $this-&gt;findRoute($request));</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:651
+Stack level 21.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Routing/Router.php:651</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Routing\\Router-&gt;dispatch(Request $request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Routing</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Router-&gt;dispatch(Request $request)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Routing\\Router-&gt;dispatch(Request $request)\">    return $this-&gt;dispatchToRoute($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:167
+Stack level 20.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Kernel.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Kernel-&gt;Illuminate\\Foundation\\Http\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Kernel-&gt;Illuminate\\Foundation\\Http</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Kernel-&gt;Illuminate\\Foundation\\Http\\{closure}\">    return $this-&gt;router-&gt;dispatch($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>};</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+Stack level 19.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:128</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>try {</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">    return $destination($passable);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>} catch (Throwable $e) {</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php:21
+Stack level 18.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php:21</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TransformsRequest-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php:31
+Stack level 17.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php:31</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ConvertEmptyStringsToNull-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull-&gt;handle($request, Closure $next)\">    return parent::handle($request, $next);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 16.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php:21
+Stack level 15.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php:21</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TransformsRequest-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php:40
+Stack level 14.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/TrimStrings.php:40</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\TrimStrings-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TrimStrings-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\TrimStrings-&gt;handle($request, Closure $next)\">    return parent::handle($request, $next);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 13.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php:27
+Stack level 12.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php:27</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>ValidatePostSize-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 11.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php:86
+Stack level 10.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php:86</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http\\Middleware</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>PreventRequestsDuringMaintenance-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 9.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/fruitcake/laravel-cors/src/HandleCors.php:38
+Stack level 8.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/fruitcake/laravel-cors/</span>src/HandleCors.php:38</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Fruitcake\\Cors\\HandleCors-&gt;handle($request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Fruitcake\\Cors</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>HandleCors-&gt;handle($request, Closure $next)</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>if (! $this-&gt;shouldRun($request)) {</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Fruitcake\\Cors\\HandleCors-&gt;handle($request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 7.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/fideloper/proxy/src/TrustProxies.php:57
+Stack level 6.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/fideloper/proxy/</span>src/TrustProxies.php:57</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Fideloper\\Proxy\\TrustProxies-&gt;handle(Request $request, Closure $next)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Fideloper\\Proxy</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>TrustProxies-&gt;handle(Request $request, Closure $next)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Fideloper\\Proxy\\TrustProxies-&gt;handle(Request $request, Closure $next)\">    return $next($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+Stack level 5.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:167</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>{closure}</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$carry = method_exists($pipe, $this-&gt;method)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;Illuminate\\Pipeline\\{closure}\">                ? $pipe-&gt;{$this-&gt;method}(...$parameters)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                : $pipe(...$parameters);</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;2}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+Stack level 4.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Pipeline/Pipeline.php:103</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Pipeline\\Pipeline-&gt;then(Closure $destination)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Pipeline</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Pipeline-&gt;then(Closure $destination)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Pipeline\\Pipeline-&gt;then(Closure $destination)\">    return $pipeline($this-&gt;passable);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:142
+Stack level 3.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Kernel.php:142</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Kernel-&gt;sendRequestThroughRouter($request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Kernel-&gt;sendRequestThroughRouter($request)</span> &#8230;
+      &#8250; <code class=\"php\"><span class=sf-dump-default>                -&gt;through($this-&gt;app-&gt;shouldSkipMiddleware() ? [] : $this-&gt;middleware)</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Kernel-&gt;sendRequestThroughRouter($request)\">                -&gt;then($this-&gt;dispatchToRouter());</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>}</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:111
+Stack level 2.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html/vendor</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/laravel/framework/</span>src/Illuminate/Foundation/Http/Kernel.php:111</span> {<samp data-depth=3 class=sf-dump-compact>
+      <span class=sf-dump-note title=\"Illuminate\\Foundation\\Http\\Kernel-&gt;handle($request)
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Foundation\\Http</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Kernel-&gt;handle($request)</span> &#8230;
+      &#8250; 
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"in Illuminate\\Foundation\\Http\\Kernel-&gt;handle($request)\">    $response = $this-&gt;sendRequestThroughRouter($request);</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>} catch (Throwable $e) {</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+    <span class=sf-dump-meta title=\"/home/kolplan01/public_html/index.php:52
+Stack level 1.\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/home/kolplan01/public_html</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-path\">/</span>index.php:52</span> {<samp data-depth=3 class=sf-dump-compact>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>$response = tap($kernel-&gt;handle(</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-const title=\"\">    $request = Request::capture()</span></code>
+      &#8250; <code class=\"php\"><span class=sf-dump-default>))-&gt;send();</span></code>
+      <span class=sf-dump-meta>arguments</span>: { &#8230;1}
+    </samp>}
+  </samp>}
+</samp>}
+</pre><script>Sfdump(\"sf-dump-971229355\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Call to a member function getName() on null (View: /home/kolplan01/public_html/resources/views/themes/original/layouts/app.blade.php) at /home/kolplan01/public_html/resources/views/themes/original/layouts/app.blade.php:16)
+[stacktrace]
+#0 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require()
+#1 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#2 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#3 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#4 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#5 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#6 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#7 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#8 /home/kolplan01/public_html/resources/views/themes/original/errors/404.blade.php(18): Illuminate\\View\\View->render()
+#9 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/kolplan01...')
+#10 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#11 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#12 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#13 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#14 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#15 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#16 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#17 /home/kolplan01/public_html/resources/views/errors/404.blade.php(1): Illuminate\\View\\View->render()
+#18 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/kolplan01...')
+#19 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#21 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#22 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#23 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#24 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#25 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#26 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#27 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#28 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 404, Array)
+#29 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make(Object(Illuminate\\View\\View), 404, Array)
+#30 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#31 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#32 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#33 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#34 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#35 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 /home/kolplan01/public_html/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 /home/kolplan01/public_html/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#51 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#52 /home/kolplan01/public_html/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#53 {main}
+
+[previous exception] [object] (Error(code: 0): Call to a member function getName() on null at /home/kolplan01/public_html/storage/framework/views/7cf56e0f1d00f210f548cea23896b60293001b5c.php:16)
+[stacktrace]
+#0 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require()
+#1 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#2 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#3 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#4 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#5 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#6 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#7 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#8 /home/kolplan01/public_html/storage/framework/views/45e47f5e2aaf55dd5f3058347ba586c134a45840.php(18): Illuminate\\View\\View->render()
+#9 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/kolplan01...')
+#10 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#11 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#12 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#13 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#14 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#15 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#16 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#17 /home/kolplan01/public_html/storage/framework/views/5342eb4eb89ba5c02041a8d5289429bd154c2059.php(1): Illuminate\\View\\View->render()
+#18 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/kolplan01...')
+#19 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('/home/kolplan01...', Array)
+#21 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('/home/kolplan01...', Array)
+#22 /home/kolplan01/public_html/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#23 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('/home/kolplan01...', Array)
+#24 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#25 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#26 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#27 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#28 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 404, Array)
+#29 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make(Object(Illuminate\\View\\View), 404, Array)
+#30 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#31 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#32 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#33 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#34 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(130): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#35 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 /home/kolplan01/public_html/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 /home/kolplan01/public_html/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#51 /home/kolplan01/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#52 /home/kolplan01/public_html/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#53 {main}
+"} 
