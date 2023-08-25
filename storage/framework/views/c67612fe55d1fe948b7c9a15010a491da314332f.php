@@ -144,4 +144,4 @@
     </nav>
 </header>
 
-<?php /**PATH /home/kolplan01/public_html/resources/views/admin/layouts/header.blade.php ENDPATH**/ ?>
+<?php /**PATH /Users/apple/Desktop/sites/ai3/resources/views/admin/layouts/header.blade.php ENDPATH**/ ?>

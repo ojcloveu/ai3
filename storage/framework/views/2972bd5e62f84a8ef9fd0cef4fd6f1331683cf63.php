@@ -50,4 +50,4 @@
 
     </div>
 </nav>
-<?php /**PATH /home/kolplan01/public_html/resources/views/themes/original/partials/topbar.blade.php ENDPATH**/ ?>
+<?php /**PATH /Users/apple/Desktop/sites/ai3/resources/views/themes/original/partials/topbar.blade.php ENDPATH**/ ?>

@@ -151,4 +151,4 @@
 
 </body>
 </html>
-<?php /**PATH /home/kolplan01/public_html/resources/views/admin/layouts/app.blade.php ENDPATH**/ ?>
+<?php /**PATH /Users/apple/Desktop/sites/ai3/resources/views/admin/layouts/app.blade.php ENDPATH**/ ?>

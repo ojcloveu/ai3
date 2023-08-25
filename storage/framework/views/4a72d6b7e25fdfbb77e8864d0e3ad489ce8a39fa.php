@@ -21,4 +21,4 @@
 <meta property="og:url" content="<?php echo e(url()->current()); ?>">
 
 <meta name="twitter:card" content="summary_large_image">
-<?php /**PATH /home/kolplan01/public_html/resources/views/partials/seo.blade.php ENDPATH**/ ?>
+<?php /**PATH /Users/apple/Desktop/sites/ai3/resources/views/partials/seo.blade.php ENDPATH**/ ?>
