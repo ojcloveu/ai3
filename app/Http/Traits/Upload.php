@@ -3,6 +3,7 @@
 namespace App\Http\Traits;
 
 use Intervention\Image\Facades\Image;
+use Illuminate\Support\Facades\Storage;
 
 trait Upload
 {
@@ -26,8 +27,10 @@ trait Upload
         if (!$path) throw new \Exception('File could not been created.');
 
         if (!empty($old)) {
-            $this->removeFile($location . '/' . $old);
-            $this->removeFile($location . '/thumb_' . $old);
+            Storage::delete($location . '/' . $old);
+            Storage::delete($location . '/thumb_' . $old);
+            // $this->removeFile($location . '/' . $old);
+            // $this->removeFile($location . '/thumb_' . $old);
         }
 
         if ($filename == null) {
@@ -41,11 +44,14 @@ trait Upload
             $size = explode('x', strtolower($size));
             $image->resize($size[0], $size[1]);
         }
-        $image->save($location . '/' . $filename);
+        // $image->save($location . '/' . $filename);
+        Storage::putFileAs($location , $file, $filename);
 
         if (!empty($thumb)) {
             $thumb = explode('x', $thumb);
-            Image::make($file)->resize($thumb[0], $thumb[1])->save($location . '/thumb_' . $filename);
+            // Image::make($file)->resize($thumb[0], $thumb[1])->save($location . '/thumb_' . $filename);
+            $thumbFile = Image::make($file)->resize($thumb[0], $thumb[1]);
+            Storage::putFileAs($location , $thumbFile, 'thumb_' . $filename);
         }
 
         return $filename;

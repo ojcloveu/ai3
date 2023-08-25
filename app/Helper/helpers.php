@@ -5,6 +5,7 @@ use App\Models\Configure;
 use Illuminate\Support\Collection;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Support\Facades\Storage;
 
 function template($asset = false)
 {
@@ -52,7 +53,10 @@ function menuActive($routeName, $type = null)
 
 function getFile($image, $clean = '')
 {
-    return file_exists($image) && is_file($image) ? asset($image) . $clean : asset(config('location.default'));
+    return Storage::exists($image) ?
+        Storage::url($image):
+        asset(config('location.default'));
+    // return file_exists($image) && is_file($image) ? asset($image) . $clean : asset(config('location.default'));
 }
 
 function removeFile($path)
