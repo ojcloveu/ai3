@@ -17,7 +17,7 @@
                             @if (session('status'))
                                 <div class="alert alert-success" role="alert">{{ session('status') }}</div>
                             @endif
-                            <img src="{{url('assets/backend/images/big/icon.png')}}" alt="wrapkit">
+                            <img src="{{url('assets/backend/images/big/icon.png')}}" alt="wrapkit" style="max-width: 100%;">
                         </div>
                         <h2 class="mt-3 text-center">@lang('Reset Password')</h2>
                         <form method="POST" action="{{ route('password.email') }}">

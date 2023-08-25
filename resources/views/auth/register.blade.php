@@ -14,7 +14,7 @@
             <div class="col-lg-5 col-md-7 bg-white">
                 <div class="p-3">
                     <div class="text-center">
-                        <img src=" {{url('assets/backend/images/big/icon.png')}}" alt="wrapkit">
+                        <img src=" {{url('assets/backend/images/big/icon.png')}}" alt="wrapkit" style="max-width: 100%;">
                     </div>
                     <h2 class="mt-3 text-center">@lang('Sign In')</h2>
                     <p class="text-center">@lang('Enter your email address and password to access admin panel.')</p>

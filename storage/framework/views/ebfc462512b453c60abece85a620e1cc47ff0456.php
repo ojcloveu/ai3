@@ -3,7 +3,7 @@
 <?php $__env->startSection('content'); ?>
     <div class="p-3">
         <div class="text-center">
-            <img src=" <?php echo e(getFile(config('location.logoIcon.path').'favicon.png')); ?>" alt="wrapkit">
+            <img src=" <?php echo e(getFile(config('location.logoIcon.path').'favicon.png')); ?>" alt="wrapkit" style="max-width: 100%;">
         </div>
         <h2 class="mt-3 text-center"><?php echo app('translator')->get('Admin Login'); ?></h2>
 

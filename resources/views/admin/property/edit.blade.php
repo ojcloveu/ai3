@@ -585,6 +585,16 @@
     </div>
 @endsection
 
+<?php
+    $imgs = optional($singlePropertyDetails[1][0]->manageProperty)->image;
+    $imgsUrl = [];
+    foreach($imgs as $key =>$value) {
+        optional($singlePropertyDetails[1][0]->manageProperty)->image[$key]->src =  getFile(config('location.property.path'). $value->image);
+       
+    } 
+?>
+
+
 @push('style-lib')
     <link rel="stylesheet" href="{{ asset('assets/admin/css/summernote.min.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/global/css/image-uploader.css') }}"/>
