@@ -164,7 +164,7 @@ Build date: 2019-12-19 16:51:02
    top: 23px;
    width: 16px;
    height: 16px;
-   background-color: #cc54f4;
+   background-color: #005c86;
    border-radius: 199px;
    cursor: pointer;
 }
@@ -176,11 +176,11 @@ Build date: 2019-12-19 16:51:02
    width: 2px;
    height: 100%;
    margin-left: -1px;
-   background-color: #cc54f4;
+   background-color: #005c86;
 }
 .irs--flat .irs-handle.state_hover > i:first-child,
 .irs--flat .irs-handle:hover > i:first-child {
-   background-color: #cc54f4;
+   background-color: #005c86;
 }
 .irs--flat .irs-min,
 .irs--flat .irs-max {
@@ -202,7 +202,7 @@ Build date: 2019-12-19 16:51:02
    line-height: 1.333;
    text-shadow: none;
    padding: 1px 5px;
-   background-color: #cc54f4;
+   background-color: #005c86;
    border-radius: 3px;
 }
 .irs--flat .irs-from:before,
@@ -218,7 +218,7 @@ Build date: 2019-12-19 16:51:02
    margin-left: -3px;
    overflow: hidden;
    border: 3px solid transparent;
-   border-top-color: #cc54f4;
+   border-top-color: #005c86;
 }
 .irs--flat .irs-grid-pol {
    background-color: #e1e4e9;

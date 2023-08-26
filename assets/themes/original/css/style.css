@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&family=Jost:wght@300;400;500;600;700&display=swap");
 :root {
-  --primary: #cc54f4;
+  --primary: #005c86;
   --secondary: #488ff9;
   --violet: #927ffd;
   --gold: #ffc107;
@@ -16,7 +16,7 @@
   --fontColor2: #dddddd;
   --shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.1);
   --shadow2: 0 0px 5px 0px rgb(0 0 0 / 20%);
-  --gradient: linear-gradient(to right, #cc54f4 0%, #488ff9 100%);
+  --gradient: linear-gradient(to right, #005c86 0%, #488ff9 100%);
   --bgLightGradient: linear-gradient(to right, #fcf6fe 0%, #f2f5fa 100%);
 }
 

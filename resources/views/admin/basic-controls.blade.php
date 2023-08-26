@@ -146,7 +146,7 @@
                         <div class="form-group col-md-3">
                             <label class="text-dark">@lang('Base Color')</label>
                             <input type="color" name="base_color"
-                                   value="{{ old('base_color') ?? $control->base_color ?? '#cc54f4' }}"
+                                   value="{{ old('base_color') ?? $control->base_color ?? '#005c86' }}"
                                    required="required" class="form-control ">
                             @error('base_color')
                             <span class="text-danger">{{ $message }}</span>

@@ -1,12 +1,12 @@
 
-@if(basicControl()->analytic_status)
+<?php if(basicControl()->analytic_status): ?>
 
     <!--Start of Google analytic Script-->
-	<script async src="https://www.googletagmanager.com/gtag/js?id={{trim(basicControl()->MEASUREMENT_ID)}}"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo e(trim(basicControl()->MEASUREMENT_ID)); ?>"></script>
 	<script>
 		"use strict";
 		$(document).ready(function () {
-			var MEASUREMENT_ID = "{{ basicControl()->MEASUREMENT_ID }}";
+			var MEASUREMENT_ID = "<?php echo e(basicControl()->MEASUREMENT_ID); ?>";
 			window.dataLayer = window.dataLayer || [];
 
 			function gtag() {
@@ -18,14 +18,14 @@
 		});
 	</script>
     <!--End of Google analytic Script-->
-@endif
+<?php endif; ?>
 
 
-@if(basicControl()->tawk_status)
+<?php if(basicControl()->tawk_status): ?>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
         $(document).ready(function () {
-             var Tawk_SRC = 'https://embed.tawk.to/' + "{{ trim(basicControl()->tawk_id)}}";
+             var Tawk_SRC = 'https://embed.tawk.to/' + "<?php echo e(trim(basicControl()->tawk_id)); ?>";
             var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
             (function () {
                 var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
@@ -38,10 +38,10 @@
         });
     </script>
     <!--End of Tawk.to Script-->
-@endif
+<?php endif; ?>
 
 
-@if(basicControl()->fb_messenger_status)
+<?php if(basicControl()->fb_messenger_status): ?>
 
 
     <!--start of Facebook Messenger Script-->
@@ -49,7 +49,7 @@
 	<script>
 		"use strict";
 		$(document).ready(function () {
-			var fb_app_id = "{{ basicControl()->fb_app_id }}";
+			var fb_app_id = "<?php echo e(basicControl()->fb_app_id); ?>";
 			window.fbAsyncInit = function () {
 				FB.init({
 					appId: fb_app_id,
@@ -69,16 +69,17 @@
 		});
 	</script>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-	<div class="fb-customerchat" page_id="{{ basicControl()->fb_page_id }}"></div>
+	<div class="fb-customerchat" page_id="<?php echo e(basicControl()->fb_page_id); ?>"></div>
     <!--End of Facebook Messenger Script-->
-@endif
+<?php endif; ?>
 
 
 
 <script>
     "use strict";
     var root = document.querySelector(':root');
-    root.style.setProperty('--primary', '{{config('basic.base_color')??'#005c86'}}');
-    root.style.setProperty('--secondary', '{{config('basic.secondary_color')??'#488ff9'}}');
+    root.style.setProperty('--primary', '<?php echo e(config('basic.base_color')??'#005c86'); ?>');
+    root.style.setProperty('--secondary', '<?php echo e(config('basic.secondary_color')??'#488ff9'); ?>');
 
 </script>
+<?php /**PATH /Users/apple/Desktop/sites/ai3/resources/views/plugins.blade.php ENDPATH**/ ?>
