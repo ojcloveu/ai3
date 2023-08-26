@@ -5,4 +5,5 @@ chmod -R 0777 storage/app
 chmod -R 0777 storage/framework
 chmod -R 0777 storage/logs
 
+
 php artisan optimize:clear
