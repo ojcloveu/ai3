@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&family=Jost:wght@300;400;500;600;700&display=swap");
 :root {
   --primary: #005c86;
-  --secondary: #488ff9;
+  --secondary: #feb62f;
   --violet: #927ffd;
   --gold: #ffc107;
   --white: #fff;
@@ -16,7 +16,7 @@
   --fontColor2: #dddddd;
   --shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.1);
   --shadow2: 0 0px 5px 0px rgb(0 0 0 / 20%);
-  --gradient: linear-gradient(to right, #005c86 0%, #488ff9 100%);
+  --gradient: linear-gradient(to right, #005c86 0%, #feb62f 100%);
   --bgLightGradient: linear-gradient(to right, #fcf6fe 0%, #f2f5fa 100%);
 }
 
@@ -113,7 +113,7 @@ select:-webkit-autofill:focus {
 }
 
 .badge.bg-primary::before {
-  background: #488ff9;
+  background: #feb62f;
 }
 
 .badge.bg-info::before {

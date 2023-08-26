@@ -232,7 +232,7 @@ unset($__errorArgs, $__bag); ?>
                         <div class="form-group col-md-3">
                             <label class="text-dark"><?php echo app('translator')->get('Secondary Color'); ?></label>
                             <input type="color" name="secondary_color"
-                                   value="<?php echo e(old('secondary_color') ?? $control->secondary_color ?? '#488ff9'); ?>"
+                                   value="<?php echo e(old('secondary_color') ?? $control->secondary_color ?? '#feb62f'); ?>"
                                    required="required" class="form-control ">
                             <?php $__errorArgs = ['secondary_color'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');

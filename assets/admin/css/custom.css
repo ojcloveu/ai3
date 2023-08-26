@@ -1,6 +1,6 @@
 :root {
     --primary: #005c86;
-    --secondary: #488ff9;
+    --secondary: #feb62f;
     --violet: #927ffd;
     --gold: #ffc107;
     --white: #fff;
@@ -15,7 +15,7 @@
     --fontColor2: #dddddd;
     --shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.1);
     --shadow2: 0 0px 5px 0px rgb(0 0 0 / 20%);
-    --gradient: linear-gradient(to right, #005c86 0%, #488ff9 100%);
+    --gradient: linear-gradient(to right, #005c86 0%, #feb62f 100%);
     --bgLightGradient: linear-gradient(to right, #fcf6fe 0%, #f2f5fa 100%);
 }
 .text-na{
@@ -1505,7 +1505,7 @@ a.text-lighter:focus {
     color: #FFFFFF;
 }
 .color-secondary{
-    color: #488ff9 !important;
+    color: #feb62f !important;
 }
 .color-primary{
     color: var(--primary) !important;
@@ -1572,7 +1572,7 @@ svg.feather.feather-chevron-down.svg-icon {
     background: #ffce00;
 }
 .custom-badge.bg-primary::before {
-    background: #488ff9;
+    background: #feb62f;
 }
 .permissionInputLebel label{
     display: flex;

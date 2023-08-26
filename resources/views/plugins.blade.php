@@ -79,6 +79,6 @@
     "use strict";
     var root = document.querySelector(':root');
     root.style.setProperty('--primary', '{{config('basic.base_color')??'#005c86'}}');
-    root.style.setProperty('--secondary', '{{config('basic.secondary_color')??'#488ff9'}}');
+    root.style.setProperty('--secondary', '{{config('basic.secondary_color')??'#feb62f'}}');
 
 </script>
