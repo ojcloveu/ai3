@@ -23,7 +23,7 @@
     'daily' => 'Daily',
     'weekly' => 'Weekly',
   ),
-  'site_title' => 'ChainCity',
+  'site_title' => 'DiamondTrust',
   'base_color' => '#cc54f4',
   'secondary_color' => '#488ff9',
   'time_zone' => 'Asia/Dhaka',
